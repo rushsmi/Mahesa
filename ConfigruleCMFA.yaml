@@ -106,6 +106,8 @@ rules:
  - RULE-SET,Meta,MIX-X
  - RULE-SET,PortGame,GAME
  - MATCH,MIX-X
+
+
 rule-providers:
   Game:
     type: file
@@ -143,3 +145,7 @@ rule-providers:
     type: file
     behavior: domain
     path: ./meta.yaml
+  Block:
+    type: file
+    behavior: domain
+    path: ./block.yaml  
