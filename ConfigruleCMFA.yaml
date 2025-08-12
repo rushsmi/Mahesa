@@ -147,5 +147,3 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml
-  
-
