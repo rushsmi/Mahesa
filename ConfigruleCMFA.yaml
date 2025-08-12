@@ -146,6 +146,6 @@ rule-providers:
   Block:
     type: file
     behavior: domain
-    path: ./block.yaml  
-    path: ./sosmed.yaml
+    path: ./block.yaml
   
+
