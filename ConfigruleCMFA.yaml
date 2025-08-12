@@ -106,8 +106,6 @@ rules:
  - RULE-SET,Meta,MIX-X
  - RULE-SET,PortGame,GAME
  - MATCH,MIX-X
-
-
 rule-providers:
   Game:
     type: file
@@ -150,24 +148,4 @@ rule-providers:
     behavior: domain
     path: ./block.yaml  
     path: ./sosmed.yaml
-  Streaming:
-    type: file
-    behavior: classical
-    path: ./streaming.yaml
-  Bankid:
-    type: file
-    behavior: domain
-    path: ./bankid.yaml
-  Tiktok:
-    type: file
-    behavior: domain
-    path: ./tiktok.yaml
-  Meta:
-    type: file
-    behavior: domain
-    path: ./meta.yaml
-  Block:
-    type: file
-    behavior: domain
-    path: ./block.yaml  
-
+  
